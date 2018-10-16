@@ -1,0 +1,41 @@
+Setter: Harsh Agrawal    Tester: Rahul Desai    Editorialist: Harsh Agrawal
+
+B. Title:
+Chopper challenge.
+
+Description:
+Mithil has escaped the villain's lair in a chopper trying to get to the city centre, but while flying over the city to get to the destination, the engines of the chopper fail, and he starts to fall. To avoid crashing, he needs to decrease the weight in the chopper.At to the back end of the chopper, he finds massive crates with labels of their weights. To make the task harder, the villain has labelled the weights as lettered digits (For ex- 234= two three four). To save the chopper from falling into the city and causing damage, Mithil needs to push out crates in
+decreasing order of their weights, ie- the heaviest crates going out first. Help Mithil find the order in which he needs to push the crates out.
+
+Constraints:
+1 <= Test cases<= 100
+1 <= number of boxes <= 100
+100 <= weight <= 999
+
+Input:
+The first line of input contain an integer T denoting the number of test cases. Each test case consists of 1 line, which has comma separated distinct weights of each crate with the line ending in a period.
+
+Output:
+For each test case, output a single line with spaced integers giving the index of weights to be pushed out in order.
+
+Examples:
+Input:
+2
+three four two, eight nine two, seven six eight.
+four two zero, six nine three.
+
+Output:
+2 3 1
+2 1
+
+
+Explanation:
+In the first case, the weights were 342, 892 and 768 in order. The heaviest crate is “892” which is at index “2” followed by “768” which is at index “3” and then “342” which is at index “1”. Hence the order of the position of the weights to be pushed is 2 3 1.
+
+In the second case, the weights were 420, 693 in order. The heaviest crate is “693” which is at index “2” followed by “420” which is at index “1”. Hence the order of the position of the weights to be pushed is 2 1.
+
+Note: No weight is repeated in a single test case.
+ 
+
+
+
